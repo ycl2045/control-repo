@@ -2,7 +2,7 @@ forge "http://forge.puppetlabs.com"
 moduledir = 'modules'   # relative path to environment (default)
 
 # Puppet Forge modules
-mod "puppetlabs/inifile", ":latest"   # get a specific version
+mod "puppetlabs/inifile", "2.0.0"   # get a specific version
 mod "puppetlabs/stdlib"             # get latest, don't update thereafter
 mod "jorhett/mcollective", :latest  # update to latest version every time
 
